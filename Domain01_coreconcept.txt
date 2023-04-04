@@ -1,0 +1,11 @@
+Control Plane
+  Kube-apiserver
+  etcd
+  kube-scheduler
+  kube-controller-manager
+
+Worker Node
+  Kubelet
+  kube-proxy
+  Container runtime
+  

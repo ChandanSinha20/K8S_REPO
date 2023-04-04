@@ -1,0 +1,17 @@
+kubectl cluster-info
+kubectl get nodes
+kubectl get ns
+kubectl get po
+
+kubectl api-resource -o wide
+
+kubectl get pods -o wide
+
+kubectl create namespace my-namespace
+kubectl label ns my-namespace app=demo
+kubectl get ns --show-labels
+
+kubectl config current-context
+kubectl config use-context CONTEXTNAME
+
+kubectl config set-context $(kubectl config current-context) --namespace=default
